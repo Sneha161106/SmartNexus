@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>ThreatSense AI Dashboard</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#111;
+color:white;
+text-align:center;
+}
+
+button{
+padding:15px;
+margin:10px;
+font-size:18px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>ThreatSense AI Control Center</h1>
+
+<h2>Upload Video</h2>
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+
+<input type="file" name="video">
+
+<button type="submit">Upload</button>
+
+</form>
+
+<h2>Live Camera</h2>
+
+<a href="/camera">
+
+<button>Start Camera</button>
+
+</a>
+
+<h2>Incident Dashboard</h2>
+
+<p>Check terminal dashboard for incident timeline</p>
+
+</body>
+</html>
